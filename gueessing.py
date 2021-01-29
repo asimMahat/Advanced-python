@@ -1,4 +1,3 @@
-
 user_word = ""
 exact_word = "coding"
 
