@@ -1,0 +1,17 @@
+# from json string to python dictionary 
+import json
+person_json =  """ 
+{
+    "age": 30,
+    "city":"New York",
+    "hasChildren" : false,
+    "name":"John",
+    "titles":[
+        "engineer",
+        "programmer"
+    ]
+}
+"""
+person = json.loads(person_json)
+print(person)
+

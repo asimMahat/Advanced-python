@@ -9,7 +9,7 @@ print(add10(5))
 mult = lambda x,y : x*y
 print (mult(2,7))
 
-points2d = [(1,2),(2,3),(15,2),(10,4), (5,-1)]
+points2d = [(1,2),(2,3),(15,2),(10,4),(5,-1)]
 #list sorted according to the y index 
 points2d_sorted = sorted(points2d, key=lambda x: x[1]) 
 
